@@ -240,14 +240,15 @@ The basic idea was relatively simple, but getting the interaction to feel right 
 
 AirMouse is currently **temporarily paused**.
 
-The cursor-control portion reached a state where I was genuinely happy with the movement. It was smooth, responsive and could be used for extended periods.
+The cursor-control portion previously reached a state where I was genuinely happy with the movement. It was smooth, responsive and could be used for extended periods.
 
-The gesture-control portion, particularly reliable finger-tap detection, was not finished.
+However, while implementing tap recognition, a later update introduced regressions that affected cursor movement. Currently, tap recognition is not working as intended, and cursor movement also needs debugging. The cursor was working much better before these changes.
 
-I paused the project because I had exams and was preparing to start university. I plan to return to it once I am more settled into my university schedule.
+I paused development because of academic commitments and my transition to university. I plan to return to the project once I am more settled into my university schedule.
 
-When I return to it, I may rebuild parts of the project from scratch rather than simply continuing the existing implementation. I now have a much better understanding of the problems I encountered and what I would want to do differently.
+When I resume development, I intend to restore stable cursor movement first, then work on gesture recognition separately. I may rebuild parts of the project from scratch, applying what I learned from the previous implementation.
 
+The project is experimental and is not currently production-ready.
 ---
 
 ## Future plans
